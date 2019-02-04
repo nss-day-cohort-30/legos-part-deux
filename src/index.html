@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nashville Software School</title>
+    <link rel="stylesheet" href="./css/legos.css" />
+  </head>
+
+  <body>
+    <fieldset>
+      <label for="lego__creator">Creator:</label>
+      <input id="lego__creator" name="lego__creator" type="text" autofocus />
+    </fieldset>
+
+    <fieldset>
+      <label for="lego__color">Color:</label>
+      <select id="lego__color">
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <label for="lego__shape">Shape:</label>
+      <input id="lego__shape" name="lego__shape" type="text" />
+    </fieldset>
+
+    <fieldset>
+      <label for="lego__creation">Creation Name:</label>
+      <input id="lego__creation" name="lego__creation" type="text" />
+    </fieldset>
+
+    <button class="btn lego__save">Save Lego Creation</button>
+
+    <article id="legoList"></article>
+
+    <script src="./scripts/legos.js"></script>
+  </body>
+</html>

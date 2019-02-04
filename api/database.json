@@ -1,0 +1,79 @@
+{
+  "colors": [
+    {
+      "id": "1",
+      "color": "Red"
+    },
+    {
+      "id": "2",
+      "color": "Green"
+    },
+    {
+      "id": "3",
+      "color": "Yellow"
+    },
+    {
+      "id": "4",
+      "color": "Blue"
+    },
+    {
+      "id": "5",
+      "color": "Orange"
+    },
+    {
+      "id": "6",
+      "color": "Black"
+    }
+  ],
+  "legos": [
+    {
+      "id": 1,
+      "creator": "Per Sun",
+      "color": "Black",
+      "shape": "Animal",
+      "creation": "Black Cow"
+    },
+    {
+      "creator": "popo",
+      "shape": "kokok",
+      "color": "ololo",
+      "creation": "mjmjm",
+      "id": 2
+    },
+    {
+      "creator": "qwerty",
+      "shape": "Circular",
+      "color": 5,
+      "creation": "Steve",
+      "id": 3
+    },
+    {
+      "creator": "Purple Rainbow",
+      "shape": "Curve",
+      "color": 5,
+      "creation": "Orange Crush",
+      "id": 4
+    },
+    {
+      "creator": "poipoiop",
+      "shape": "uygiuyvuhi",
+      "color": 2,
+      "creation": "vjhbjihbjhbjh",
+      "id": 5
+    },
+    {
+      "creator": "bbbbbbb",
+      "shape": "bbbbbb",
+      "color": 4,
+      "creation": "bbbbbbb",
+      "id": 6
+    },
+    {
+      "creator": "ggggggg",
+      "shape": "gggggg",
+      "color": 2,
+      "creation": "gggggg",
+      "id": 7
+    }
+  ]
+}
