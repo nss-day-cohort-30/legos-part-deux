@@ -29,14 +29,14 @@
     {
       "id": 1,
       "creator": "Per Sun",
-      "color": "Black",
+      "color": 1,
       "shape": "Animal",
       "creation": "Black Cow"
     },
     {
       "creator": "popo",
       "shape": "kokok",
-      "color": "ololo",
+      "color": 6,
       "creation": "mjmjm",
       "id": 2
     },
@@ -74,6 +74,20 @@
       "color": 2,
       "creation": "gggggg",
       "id": 7
+    },
+    {
+      "creator": "Warner",
+      "shape": "Square",
+      "color": 1,
+      "creation": "Square",
+      "id": 8
+    },
+    {
+      "creator": "Ryan N",
+      "shape": "Square",
+      "color": 1,
+      "creation": "Circle",
+      "id": 9
     }
   ]
 }
