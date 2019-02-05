@@ -39,25 +39,19 @@ fetch("http://127.0.0.1:8088/colors")
             colors = theParsedColors
             return fetch("http://127.0.0.1:8088/legos")
                 .then(res => res.json())
-
         }
     )
     .then(
         (theParsedLegoArray) => {
-            const newLegoArray = theParsedLegoArray.map(
-                (currentLego) => {
-                    currentLego.color = colors.find(
-                        (currentColor) => {
-                            return currentLego.color === parseInt(currentColor.id)
-                        }
-                    ).color
+            const newLegoArray = theParsedLegoArray
+                .map(currentLego => {
+                    currentLego.color = colors.find( currentColor => currentLego.color === parseInt(currentColor.id) ).color
                     return currentLego
                 }
             )
 
             // Everything is as it should be
             return newLegoArray
-
         }
     )
     .then(
